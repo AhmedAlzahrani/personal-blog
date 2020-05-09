@@ -1,9 +1,8 @@
-@media screen and (max-width=375){
-    @import "small_layout.css";
+@import "default_layout.css";
+/* @import "small_layout.css";
+@import "tablet_layout.css"; */
+body {
+    background-color: black;
+    color:whitesmoke;
 }
-@media screen and (min-width=375) and (max-width=768){
-    @import "tablet_layout.css";
-}
-@media screen and (min-width=769){
-    @import "default_layout.css";
-}
+

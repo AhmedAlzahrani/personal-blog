@@ -1,0 +1,7 @@
+@media (min-width:376) and (max-width:768){
+    nav {
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
