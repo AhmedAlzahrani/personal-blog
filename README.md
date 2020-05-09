@@ -1,6 +1,6 @@
 **Udacity's first project** 		
 
-`Work: Not Yet`
+`Work: In-progress`
 
 
 https://ahmedalzahrani.github.io/personal-blog
