@@ -1,8 +1,14 @@
 @media (min-width: 901px) {
+    body {
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0;
+    }
     .container {
         display: grid;
         grid-template-columns: repeat(3 , 1fr);
         grid-template-rows: 1fr 70% 1fr;
+        gap: 15%;
         grid-template-areas: "header header header"
                              "main   main   main"
                              "footer footer footer";
@@ -13,6 +19,11 @@
     }
     main {
         grid-area: main;
+        display:grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-auto-rows: minmax(1fr,auto);
+        justify-content: space-evenly;
+        gap: 35px;
     }
     footer {
         grid-area: footer;
@@ -33,7 +44,7 @@
     }
     a {
         text-align: center;
-        color: lightgray;
+        color: black;
         text-decoration: none;
         width: 2em;
     }
