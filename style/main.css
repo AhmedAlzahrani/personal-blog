@@ -1,27 +1,22 @@
 @import "default_layout.css";
 @import "tablet_layout.css";
 @import "small_layout.css";
-body {
-    /* background-color: white; */
-    color:black;
-}
+@import "colors.css";
 
 .post {
     padding: 2em;
-    border: 1px solid green;
-    border-radius: 50px;
+    border: 1px solid rgba(42, 43, 42, 0.151);
+    border-radius: 10px;
 }
 .post img {
     width: 100%;
 }
 .more-button {
     border: none;
-    background-color: white;
     width: 25%;
     font-size: 16px;
 }
-button:hover {
-    border-radius: 50px;
-    background-color: silver;
+.uppercase-term {
+    text-transform: uppercase;
 }
 

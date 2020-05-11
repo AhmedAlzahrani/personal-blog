@@ -1,17 +1,15 @@
 @media (min-width: 901px) {
     body {
-        padding-left: 5%;
-        padding-right: 5%;
         margin: 0;
     }
     .container {
         display: grid;
-        grid-template-columns: repeat(2 , 1fr);
-        grid-template-rows: 1f 70% 1fr;
-        gap: 15%;
-        grid-template-areas: "header header"
-                             "main   main"
-                             "footer footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 6% 80% 15%;
+        gap: 7%;
+        grid-template-areas: "header"
+                             "main"
+                             "footer";
     
     }
     header {
@@ -24,9 +22,15 @@
         grid-auto-rows: minmax(1fr,auto);
         justify-content: space-evenly;
         gap: 35px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     footer {
         grid-area: footer;
+        padding: 2.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     nav {
         display: flex;
@@ -34,7 +38,6 @@
         justify-content: space-around;
         align-items: center;
         margin: auto 150px;
-        border-bottom: rgb(255, 0, 0) solid 2px;
     }
     h1  {
         text-transform: uppercase;
@@ -44,22 +47,11 @@
     }
     a {
         text-align: center;
-        color: black;
         text-decoration: none;
         width: 2em;
     }
     a img {
         width:100%;
-    }
-    .post a {
-        color:lightskyblue;
-    }
-    footer {
-        background-color: #d2d2d2;
-        padding: 2.5%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     section {
         display: flex;
@@ -71,5 +63,12 @@
     }
     footer section a {
         width: 10%;
+    }
+    .post:hover {
+        box-shadow: 0 4px 8px 0 rgba(42, 43, 42, 0.300), 0 6px 20px 0 rgba(42, 43, 42, 0.300);
+    }
+    .more-button:hover {
+        background-color: #555;
+        border-radius: 50px;
     }
 }

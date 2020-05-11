@@ -1,0 +1,26 @@
+body {
+    background-color: #aaa;
+}
+nav {
+    color: #ddd;
+}
+nav a {
+    color: #ddd;
+}
+header{
+    background-color: #555;
+}
+
+footer {
+    background-color: #444;
+    color:white;
+}
+.post {
+    background-color: #ddd;
+}
+.post a button {
+    background-color: #ddd;
+}
+.header {
+    background-color: #999;
+}
