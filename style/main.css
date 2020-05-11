@@ -2,20 +2,29 @@
 @import "tablet_layout.css";
 @import "small_layout.css";
 @import "colors.css";
+@import "fonts.css";
+
 
 .post {
     padding: 2em;
     border: 1px solid rgba(42, 43, 42, 0.151);
     border-radius: 10px;
 }
+
+
 .post img {
     width: 100%;
+    border-radius: inherit;
 }
+
+
 .more-button {
     border: none;
     width: 25%;
     font-size: 16px;
 }
+
+
 .uppercase-term {
     text-transform: uppercase;
 }

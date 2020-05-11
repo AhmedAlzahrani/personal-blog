@@ -1,26 +1,46 @@
 body {
-    background-color: #aaa;
+    background-color: #002;
+    color: #ddd;
 }
+
+
 nav {
     color: #ddd;
 }
+
+
 nav a {
     color: #ddd;
 }
+
+
 header{
     background-color: #555;
 }
 
+
 footer {
     background-color: #444;
-    color:white;
+    color: white;
 }
+
+
 .post {
     background-color: #ddd;
+    color: #002;
 }
+
+
 .post a button {
     background-color: #ddd;
 }
-.header {
+
+
+.article-header {
     background-color: #999;
+}
+
+
+section.article-header {
+    color: #002;
 }
