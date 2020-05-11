@@ -6,12 +6,12 @@
     }
     .container {
         display: grid;
-        grid-template-columns: repeat(3 , 1fr);
-        grid-template-rows: 1fr 70% 1fr;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: 1f 70% 1fr;
         gap: 15%;
-        grid-template-areas: "header header header"
-                             "main   main   main"
-                             "footer footer footer";
+        grid-template-areas: "header header"
+                             "main   main"
+                             "footer footer";
     
     }
     header {
@@ -50,5 +50,30 @@
     }
     a img {
         width:100%;
+    }
+    .post {
+        padding: 2em;
+        border: 1px solid red;
+    }
+    .post a {
+        color:lightskyblue;
+    }
+    footer {
+        background-color: #d2d2d2;
+        padding: 2.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .social {
+        width:100%;
+    }
+    footer section a {
+        width: 10%;
     }
 }
