@@ -1,8 +1,9 @@
 @import "default_layout.css";
-/* @import "small_layout.css";
-@import "tablet_layout.css"; */
+@import "tablet_layout.css";
+@import "small_layout.css";
 body {
-    background-color: black;
-    color:whitesmoke;
+    /* background-color: white; */
+    color:black;
 }
+
 
