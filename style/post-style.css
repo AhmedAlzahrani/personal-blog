@@ -1,5 +1,10 @@
-@import "../style/colors.css";
-@import "../style/post_default_layout.css";
+@import "colors.css";
+@import "fonts.css";
+@import "post_default_layout.css";
+@import "post_tablet_layout.css";
+@import "post_small_layout.css";
+
+
 .uppercase-term {
     text-transform: uppercase;
 }
