@@ -29,6 +29,8 @@
         grid-auto-rows: minmax(1fr,auto);
         justify-content: space-evenly;
         gap: 35px;
+        padding-left: 5%;
+        padding-right: 5%;
     }
 
 
