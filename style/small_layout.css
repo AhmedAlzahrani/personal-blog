@@ -1,7 +1,7 @@
 @media (max-width: 460px){
     body {
-        padding-left: 5%;
-        padding-right: 5%;
+        /* padding-left: 5%; */
+        /* padding-right: 5%; */
         margin: 0;
     }
 
@@ -42,7 +42,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        margin: auto;
+        /* margin: auto; */
     }
 
 
@@ -92,7 +92,7 @@
         width: 100%;
     }
 
-    
+
     footer section a {
         width: 10%;
     }
